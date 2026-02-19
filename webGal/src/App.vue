@@ -1,5 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import LayoutView from './layout/LayoutView.vue'
+</script>
 
-<template></template>
+<template>
+  <LayoutView />
+</template>
 
 <style scoped></style>
