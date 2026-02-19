@@ -6,4 +6,9 @@
 
 <script lang="ts"></script>
 
-<style scoped></style>
+<style scoped>
+.layout-view {
+  width: 100%;
+  height: 100%;
+}
+</style>
