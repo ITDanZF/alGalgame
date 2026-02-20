@@ -1,0 +1,14 @@
+name: langchain_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10 # ← 升级 Python 版本
+  - pip # ← 添加 pip 支持
+  - pip: # ← pip 安装的包
+      - langchain==0.1.0 # ← LangChain 核心包
+      - langchain-community==0.0.10 # ← 社区组件
+      - langchain-core==0.1.0 # ← 核心模块
+      - openai==1.10.0 # ← OpenAI API（如需要）
+      - tiktoken==0.5.0 # ← token 计数
+      - python-dotenv==1.0.0 # ← 环境变量管理
